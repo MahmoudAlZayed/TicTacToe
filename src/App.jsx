@@ -1,29 +1,17 @@
-//Copmonents 
-import TicTacToe from './components/TicTacToe'
-
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+//Copmonents
+import TicTacToe from "./components/TicTacToe";
 
 //Style
-import './App.css'
-
+import "./App.css";
 
 function App() {
-
   return (
     <>
-
-
-   <BrowserRouter>
-   <Routes>
-   <Route path="Tic-Tac-Toe" element= {<TicTacToe />} />
-   </Routes>
-   </BrowserRouter>
-
       <div>
+        <TicTacToe />
       </div>
-    
     </>
-  )
+  );
 }
 
-export default App
+export default App;
