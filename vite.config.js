@@ -4,8 +4,10 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 
 export default defineConfig({
-  base: "/Tic-Tac-Toe/",
+ 
   plugins: [react()],
 })
 
 // export default defineConfig({ base: "/{Tic-Tac-Toe}", plugins: [react()], })
+
+// base: "/Tic-Tac-Toe/",
