@@ -15,7 +15,7 @@ function App() {
 
    <BrowserRouter>
    <Routes>
-   <Route path="/Tic-Tac-Toe/" element= {<TicTacToe />} />
+   <Route path="Tic-Tac-Toe" element= {<TicTacToe />} />
    </Routes>
    </BrowserRouter>
 
