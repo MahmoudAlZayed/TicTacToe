@@ -115,8 +115,10 @@ export default function TicTacToe() {
   };
   return (
     <>
-      <h1 ref={myRef}>Tic Tac Toe</h1>
-      <h2>{turn}</h2>
+      <h1 className="title" ref={myRef}>
+        Tic Tac Toe
+      </h1>
+      <h2 className="turnTitle">{turn}</h2>
       <div className="gameContainer">
         <div className="row1">
           <div
@@ -197,7 +199,11 @@ export default function TicTacToe() {
           ></div>
         </div>
       </div>
-      <button onClick={reset}>Reset</button>
+      <div className="btnContainer">
+      <button className="resetButton" onClick={reset}>
+        Reset
+      </button>
+      </div>
     </>
   );
 }
